@@ -5532,7 +5532,6 @@ static int mtk_add_mac(struct mtk_eth *eth, struct device_node *np)
 	phy_interface_t phy_mode;
 	struct phylink *phylink;
 	struct mtk_mac *mac;
-	unsigned int sid;
 	int txqs = 1;
 	int id, err;
 	u32 val;
